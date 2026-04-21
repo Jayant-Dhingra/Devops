@@ -1,0 +1,11 @@
+name: Disable
+on:
+  push:
+    branches: [main]
+
+jobs:
+  dis:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Print"
+        run: echo "Disable"
